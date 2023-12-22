@@ -1,0 +1,62 @@
+/* Write your code here. */
+body {
+  margin: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+.app-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+.card-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 330px;
+  width: 60%;
+}
+.card-heading {
+  font-family: 'Roboto';
+  font-size: 48px;
+  color: #e4e7eb;
+  width: 70%;
+}
+.card-label {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.card-input {
+  font-family: 'Roboto';
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  outline: 0px;
+  width: 80%;
+  color: #e4e7eb;
+  font-size: 18px;
+}
+.card-button {
+  font-family: 'Roboto';
+  width: 60%;
+  border-radius: 8px;
+}
+.card-button-title {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #219a6f;
+}
+.image {
+  width: 85%;
+}
